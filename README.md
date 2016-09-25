@@ -16,3 +16,5 @@ You can show posters and add they to your favourite posters. Your favourite post
 
 Also you can search all film’s information.
 <img src="screenshots/search.jpg" alt="SearchActivity" style="width: 337px;">
+
+<img src="screenshots/poster.jpg" alt="PosterActivity" style="width: 337px;">
