@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cinema Poster</string>
+    <string name="enter">Log In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="btn_continuous">Continuous</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_search">Search</string>
+    <string name="type_text">type a text</string>
+
+</resources>

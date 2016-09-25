@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="@dimen/action_bar_height"
+android:background="@color/brown600">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/homeBtn"
+        android:src="@mipmap/ic_home"
+        android:background="@null"
+        android:layout_marginLeft="@dimen/action_bar_margin"
+        android:layout_marginRight="@dimen/action_bar_margin"
+        android:layout_margin="@dimen/action_bar_margin" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/starBtn"
+        android:src="@mipmap/ic_star"
+        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/homeBtn"
+        android:layout_toEndOf="@+id/homeBtn"
+        android:layout_marginLeft="@dimen/action_bar_margin"
+        android:layout_marginRight="@dimen/action_bar_margin"
+        android:layout_margin="@dimen/action_bar_margin" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchBtn"
+        android:src="@mipmap/ic_search"
+        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/starBtn"
+        android:layout_toEndOf="@+id/starBtn"
+        android:layout_marginLeft="@dimen/action_bar_margin"
+        android:layout_marginRight="@dimen/action_bar_margin"
+        android:layout_margin="@dimen/action_bar_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="@dimen/text_size_16sp"
+        android:layout_toRightOf="@+id/searchBtn"
+        android:layout_toLeftOf="@+id/outBtn"
+        android:layout_toStartOf="@+id/outBtn"
+        android:layout_centerVertical="true"
+        android:gravity="left" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/outBtn"
+        android:src="@mipmap/ic_out"
+        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/action_bar_margin" />
+
+</RelativeLayout>

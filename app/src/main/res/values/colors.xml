@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brown50">#ECEFF1</color>
+    <color name="brown100">#CFD8DC</color>
+    <color name="brown200">#B0BEC5</color>
+    <color name="brown300">#90A4AE</color>
+    <color name="brown400">#78909C</color>
+    <color name="brown500">#607D8B</color>
+    <color name="brown600">#546E7A</color>
+    <color name="brown700">#455A64</color>
+    <color name="brown800">#37474F</color>
+    <color name="brown900">#263238</color>
+</resources>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.karpunets.cinemaposter.element.PosterActivity"
+    android:orientation="vertical"
+    android:background="@color/brown400">
+
+    <fragment
+        android:name="com.karpunets.cinemaposter.element.ActionBarFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/action_bar"
+        android:id="@+id/bar">
+    </fragment>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_30sp"
+                android:textColor="@android:color/white"
+                android:id="@+id/title"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="500dp"
+                android:id="@+id/img"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_18sp"
+                android:textColor="@color/brown50"
+                android:id="@+id/year"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin_lr"
+                android:layout_marginRight="@dimen/text_margin_lr" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_18sp"
+                android:textColor="@color/brown50"
+                android:id="@+id/country"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin_lr"
+                android:layout_marginRight="@dimen/text_margin_lr" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_18sp"
+                android:textColor="@color/brown50"
+                android:id="@+id/director"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin_lr"
+                android:layout_marginRight="@dimen/text_margin_lr" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_18sp"
+                android:textColor="@color/brown50"
+                android:id="@+id/writer"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin_lr"
+                android:layout_marginRight="@dimen/text_margin_lr" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_18sp"
+                android:textColor="@color/brown50"
+                android:id="@+id/type"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin_lr"
+                android:layout_marginRight="@dimen/text_margin_lr" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_18sp"
+                android:textColor="@color/brown50"
+                android:id="@+id/genre"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin_lr"
+                android:layout_marginRight="@dimen/text_margin_lr" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_18sp"
+                android:textColor="@color/brown50"
+                android:id="@+id/actors"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin_lr"
+                android:layout_marginRight="@dimen/text_margin_lr" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_18sp"
+                android:textColor="@color/brown50"
+                android:id="@+id/awards"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin_lr"
+                android:layout_marginRight="@dimen/text_margin_lr" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_18sp"
+                android:textColor="@color/brown50"
+                android:id="@+id/rating"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin_lr"
+                android:layout_marginRight="@dimen/text_margin_lr" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_18sp"
+                android:textColor="@color/brown50"
+                android:id="@+id/language"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin_lr"
+                android:layout_marginRight="@dimen/text_margin_lr" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_18sp"
+                android:textColor="@color/brown50"
+                android:id="@+id/released"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin_lr"
+                android:layout_marginRight="@dimen/text_margin_lr" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_18sp"
+                android:textColor="@color/brown50"
+                android:id="@+id/runtime"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin_lr"
+                android:layout_marginRight="@dimen/text_margin_lr" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_18sp"
+                android:textColor="@color/brown50"
+                android:id="@+id/plot"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin_lr"
+                android:layout_marginRight="@dimen/text_margin_lr" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

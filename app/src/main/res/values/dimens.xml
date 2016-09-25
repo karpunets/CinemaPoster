@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="action_bar_height">60dp</dimen>
+    <dimen name="action_bar_margin">6dp</dimen>
+
+    <dimen name="image_margin_top">60dp</dimen>
+    <dimen name="login_button_width">300dp</dimen>
+
+    <dimen name="text_size_30sp">30sp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+
+    <dimen name="text_margin_lr">10dp</dimen>
+    <dimen name="text_margin">5dp</dimen>
+
+    <dimen name="poster_height">220dp</dimen>
+    <dimen name="poster_margin">10dp</dimen>
+    <dimen name="poster_image_width">90dp</dimen>
+    <dimen name="poster_image_height">150dp</dimen>
+    <dimen name="poster_star_wh">70dp</dimen>
+
+</resources>
